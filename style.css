@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.header{
+    width: 100%;
+    height: 48px;
+    background-color:  #f46f13;;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-header{
+    display: flex;
+    padding-right: 16px;
+
+}
+.logo img{
+    padding-left: 16px;
+}
+.header-text a{
+    color: white;
+    font-family: Raleway,Arial,Helvetica Neue,Helvetica,sans-serif!important;
+    font-size: 14px;
+    padding-right: 40px;
+    font-weight: 600;
+}
+.sign-in input{
+    background-color: #c54f0c;
+    color: white;
+    border-radius: 5px;
+    height: 22px;
+    width: 104px;
+    border: none;
+    cursor: pointer;
+}
+.container-text{
+    display: flex;
+    font-weight: 100;
+    justify-content: center;
+    padding-top: 25px;
+    font-size: 43px;
+    color: #212529;
+    font-family: Raleway,Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    padding-top: 26px;
+    height: 590px;
+    margin-bottom: 50px;
+}
+.container-box{
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 12px;
+    width: 730px;
+    padding-bottom: 48px;
+    display: f;
+}
+.container-img-left{
+    padding-top: 50px;
+}
+.container-img-right{
+    padding-top: 50px;
+}
+.container-box h2{
+    font-family: Raleway,Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.list{
+   display: flex;
+   
+   justify-content: space-around;
+ 
+   line-height: 30px;
+}
+.list ul li{
+   
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Raleway,Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+.activity{
+    width: 100%;
+    height: 392px;
+    background-color: #f9f9f9;
+}
+.activity h1{
+    font-weight: 100;
+    font-family: Raleway,Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-size: 38px;
+    text-align: center;
+    padding-top: 30px;
+}
+a{
+    color: #009cd4;
+    font-weight: 400;
+    font-size: 20px;
+}
+a:hover{
+    color: #0056b3;
+    text-decoration: underline;
+}
+.activities{
+    display: flex;
+    font-weight: 100;
+    font-family: Raleway,Arial,Helvetica Neue,Helvetica,sans-serif;
+    justify-content:space-around;
+    padding: 50px;
+    margin: 0px ;
+}
+sub{
+    font-size: 20px;
+    position: relative;
+    top: -7px;
+}
+.calender{
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+.calender img{
+    width: 50px;
+}
+.book{
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+.book img{
+    width: 50px;
+}
+.people{
+    line-height: 30px;
+}
+.footer{
+    height: 310px;
+    display: flex;
+    justify-content: center;
+    background-color: #454545;
+    padding-top: 90px;
+    color: white;
+    font-weight: 100;
+    font-family: Raleway,Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-size: 15px;
+
+}
+.footer-text{
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+    
+}
+.list-1 ul li a{
+    color: white;
+    font-size: 13px;
+    line-height: 25px;
+}
+.need-help{
+    background-color: #353535;
+    height: 216px;
+    padding: 20px;
+    font-size: 13px;
+    line-height: 25px;
+  
+}
+.text p{
+    background-color: #454545;
+    padding: 0;
+    text-indent: 300px;
+    margin-top: -70px;
+    font-size: 13px;
+    color: white;
+}
